@@ -3,7 +3,9 @@
 ## Handedness Pin on Elite-C Holder
 The [Elite-C Holder](https://github.com/Bastardkb/Elite-C-holder) supports setting [handedness by pin](https://docs.qmk.fm/features/split_keyboard#handedness-by-pin) on pin F1 of an Elite-C.
 
-To utilise this, you must be using an Elite-C compatible development board (with the bottom 5 pins broken out) and install the necessary resistor. The following firmware configuration can be made in your keymap directory:
+To utilise this, you must be using an Elite-C compatible development board (with the bottom 5 pins broken out) and install the necessary resistor.
+The resistor has to be installed in the R5-R6 (depending on the sidedness of the elite pi holder) slot it should be a 5.1K resistor.
+The following firmware configuration can be made in your keymap directory:
 ```Makefile
 # rules.mk
 

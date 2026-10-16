@@ -7,11 +7,9 @@
 
 // #include "keyboards/skeletyl/config.h"
 
-#define XXX KC_NO
-#define KCR KC_RIGHT
-#define KCL KC_LEFT
-#define KCD KC_DOWN
-#define KCU KC_UP
+// TODO Enable if the resistor on R5 R6 is soldered
+// #define SPLIT_HAND_PIN F1
+// #define SPLIT_HAND_PIN_LOW_IS_LEFT
 
 #define LAYOUT_miryoku( \
       K00,  K01,  K02,  K03,  K04,                   K05,  K06,  K07,  K08,  K09, \
