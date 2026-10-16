@@ -1,0 +1,6 @@
+{
+    "converter": "rp2040_ce",
+    "keyboard": "bastardkb/skeletyl/promicro",
+    "keymap": "default",
+    "layout": "LAYOUT_split_3x5_3",
+}
